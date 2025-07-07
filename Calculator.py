@@ -1,13 +1,13 @@
 def calculator():
     while True:
-        print("\nSimple Calculator")
-        print("1. Add")
-        print("2. Subtract")
-        print("3. Multiply")
-        print("4. Divide")
-        print("5. Exit")
+        print("\nCalculator")
+        print("1. +")
+        print("2. -")
+        print("3. *")
+        print("4. /")
+        print("5. Exit calculator")
 
-        choice = input("Choose an option (1-5): ")
+        choice = input("Choose an operator to do a calculation (1-5): ")
 
         if choice == '5':
             print("Exiting")
